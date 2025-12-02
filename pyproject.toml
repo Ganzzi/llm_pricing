@@ -1,0 +1,98 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "llm-pricing"
+version = "0.1.0"
+description = "Standalone Python package for LLM pricing with provider tiers, model-based rate limiters, and tiered pricing support"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "LLM Pricing Contributors" }]
+keywords = ["llm", "pricing", "rate-limits", "ai-models"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.9"
+dependencies = ["pydantic>=2.0"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "black>=23.0",
+    "ruff>=0.1",
+    "mypy>=1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Ganzzi/llm-pricing"
+Documentation = "https://github.com/Ganzzi/llm-pricing/tree/main/docs"
+Repository = "https://github.com/Ganzzi/llm-pricing"
+Issues = "https://github.com/Ganzzi/llm-pricing/issues"
+Changelog = "https://github.com/Ganzzi/llm-pricing/blob/main/CHANGELOG.md"
+
+[tool.hatch.build.targets.wheel]
+packages = ["llm_pricing"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+addopts = "-v --cov=llm_pricing --cov-report=term-missing --cov-report=html --tb=short"
+minversion = "7.0"
+
+[tool.black]
+line-length = 100
+target-version = ["py39", "py310", "py311", "py312"]
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "C",  # flake8-comprehensions
+    "B",  # flake8-bugbear
+    "UP", # pyupgrade
+]
+ignore = [
+    "E501", # line too long (black handles this)
+]
+
+[tool.ruff.isort]
+known-first-party = ["llm_pricing"]
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+ignore_missing_imports = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
