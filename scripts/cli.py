@@ -215,6 +215,8 @@ class CLIApp:
                 print(f"  [{tier_name}]")
                 if limits.rpm:
                     print(f"    RPM: {limits.rpm:,}")
+                if limits.rpd:
+                    print(f"    RPD: {limits.rpd:,}")
                 if limits.tpm:
                     print(f"    TPM: {limits.tpm:,}")
                 if limits.tpd:

@@ -7,6 +7,7 @@ class RateLimiterType(str, Enum):
     """Types of rate limiters."""
 
     RPM = "rpm"  # Requests per minute
+    RPD = "rpd"  # Requests per day
     TPM = "tpm"  # Tokens per minute (total)
     TPD = "tpd"  # Tokens per day
     ITPM = "itpm"  # Input tokens per minute

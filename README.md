@@ -331,6 +331,7 @@ from llm_pricing import ModelRateLimits
 
 limits = ModelRateLimits(
     rpm=100000,      # Requests per minute
+    rpd=1000000,     # Requests per day
     tpm=2000000,     # Tokens per minute
     tpd=100000000,   # Tokens per day
     itpm=200000,     # Input tokens per minute
@@ -382,9 +383,9 @@ from llm_pricing import ModelRateLimits
 
 # Rate limiters per tier (not provider-based!)
 rate_limiters = {
-    "free": ModelRateLimits(rpm=10, tpm=1_000_000),
-    "pro": ModelRateLimits(rpm=50, tpm=5_000_000),
-    "enterprise": ModelRateLimits(rpm=1000, tpm=50_000_000),
+    "free": ModelRateLimits(rpm=10, rpd=100, tpm=1_000_000),
+    "pro": ModelRateLimits(rpm=50, rpd=1000, tpm=5_000_000),
+    "enterprise": ModelRateLimits(rpm=1000, rpd=10000, tpm=50_000_000),
 }
 
 # Add to model

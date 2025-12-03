@@ -21,6 +21,7 @@ class ModelRateLimits(BaseModel):
 
     Attributes:
         rpm: Requests per minute
+        rpd: Requests per day
         tpm: Tokens per minute (total)
         tpd: Tokens per day
         itpm: Input tokens per minute
@@ -28,6 +29,7 @@ class ModelRateLimits(BaseModel):
     """
 
     rpm: Optional[int] = Field(None, description="Requests per minute")
+    rpd: Optional[int] = Field(None, description="Requests per day")
     tpm: Optional[int] = Field(None, description="Tokens per minute (total)")
     tpd: Optional[int] = Field(None, description="Tokens per day")
     itpm: Optional[int] = Field(None, description="Input tokens per minute")
@@ -36,7 +38,9 @@ class ModelRateLimits(BaseModel):
     @model_validator(mode="after")
     def check_at_least_one_limit(self) -> ModelRateLimits:
         """Ensure at least one rate limit is specified."""
-        if not any(x is not None for x in [self.rpm, self.tpm, self.tpd, self.itpm, self.otpm]):
+        if not any(
+            x is not None for x in [self.rpm, self.rpd, self.tpm, self.tpd, self.itpm, self.otpm]
+        ):
             raise ValueError("At least one rate limit must be specified")
         return self
 

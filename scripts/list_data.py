@@ -131,6 +131,8 @@ def list_all_data():
 
                 if limits.rpm:
                     print(f"           RPM: {format_rate_limit(limits.rpm, 'requests/min')}")
+                if limits.rpd:
+                    print(f"           RPD: {format_rate_limit(limits.rpd, 'requests/day')}")
                 if limits.tpm:
                     print(f"           TPM: {format_rate_limit(limits.tpm, 'tokens/min')}")
                 if limits.tpd:
@@ -140,7 +142,9 @@ def list_all_data():
                 if limits.otpm:
                     print(f"           Output TPM: {format_rate_limit(limits.otpm, 'tokens/min')}")
 
-                if not any([limits.rpm, limits.tpm, limits.tpd, limits.itpm, limits.otpm]):
+                if not any(
+                    [limits.rpm, limits.rpd, limits.tpm, limits.tpd, limits.itpm, limits.otpm]
+                ):
                     print(f"           (No rate limits specified)")
 
     print("\n")

@@ -357,8 +357,8 @@ model = ModelInfo(
         output_mtok=Decimal("10.00"),
     ),
     rate_limiters={
-        "default": ModelRateLimits(rpm=100, tpm=4000000),
-        "free": ModelRateLimits(rpm=3),
+        "default": ModelRateLimits(rpm=100, rpd=1000, tpm=4000000),
+        "free": ModelRateLimits(rpm=3, rpd=50),
     },
     match_patterns=["gpt-4o", "gpt4o"],
     is_available=True,
@@ -481,6 +481,7 @@ from llm_pricing import ModelRateLimits
 
 limits = ModelRateLimits(
     rpm=100,           # Requests per minute
+    rpd=1000,          # Requests per day
     tpm=4000000,       # Tokens per minute (total)
     tpd=100000000,     # Tokens per day
     itpm=2000000,      # Input tokens per minute
@@ -490,6 +491,7 @@ limits = ModelRateLimits(
 
 **Attributes:**
 - `rpm` (Optional[int]): Requests per minute
+- `rpd` (Optional[int]): Requests per day
 - `tpm` (Optional[int]): Tokens per minute (total)
 - `tpd` (Optional[int]): Tokens per day
 - `itpm` (Optional[int]): Input tokens per minute
