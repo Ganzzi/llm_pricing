@@ -1,9 +1,11 @@
-"""Tests for storage layer."""
+"""Unit tests for storage layer."""
 
 import pytest
 import json
 from pathlib import Path
 from datetime import datetime
+
+pytestmark = pytest.mark.unit
 
 from llm_pricing.storage import StorageConfig, DataVersionManager, LocalStorage
 from llm_pricing.models import PricingDatabase, Provider, ProviderTier, ModelInfo

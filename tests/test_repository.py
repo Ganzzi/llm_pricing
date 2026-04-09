@@ -1,9 +1,11 @@
-"""Tests for the repository layer."""
+"""Unit tests for the repository layer."""
 
 import pytest
 from pathlib import Path
 from decimal import Decimal
 from tempfile import TemporaryDirectory
+
+pytestmark = pytest.mark.unit
 
 from llm_pricing.repository import PricingRepository, create_repository
 from llm_pricing.storage import LocalStorage, DataVersionManager, StorageConfig

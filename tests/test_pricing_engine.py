@@ -1,9 +1,11 @@
-"""Tests for pricing engine module."""
+"""Unit tests for pricing engine module."""
 
 import pytest
 from decimal import Decimal
 from datetime import datetime
 from pathlib import Path
+
+pytestmark = pytest.mark.unit
 
 from llm_pricing.engine import (
     PricingEngine,

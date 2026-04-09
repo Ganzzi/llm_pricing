@@ -179,3 +179,11 @@ __pycache__/
 .Python
 pip-log.txt
 pip-delete-this-directory.txt
+
+# Claude Code
+.claude/
+AGENTS.md
+CLAUDE.md
+
+# GitNexus
+.gitnexus/

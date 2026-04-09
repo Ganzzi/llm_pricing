@@ -1,10 +1,12 @@
-"""Tests for snapshot management functionality."""
+"""Unit tests for snapshot management functionality."""
 
 import pytest
 from pathlib import Path
 from decimal import Decimal
 from datetime import datetime
 from tempfile import TemporaryDirectory
+
+pytestmark = pytest.mark.unit
 
 from llm_pricing.snapshot import SnapshotManager, SnapshotInfo, create_snapshot_manager
 from llm_pricing.models import (

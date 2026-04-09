@@ -1,4 +1,4 @@
-"""Tests for LLMPricing main class."""
+"""Unit tests for LLMPricing main class."""
 
 import pytest
 import tempfile
@@ -6,6 +6,8 @@ from pathlib import Path
 from decimal import Decimal
 from datetime import datetime
 import uuid
+
+pytestmark = pytest.mark.unit
 
 from llm_pricing import (
     LLMPricing,
