@@ -1402,6 +1402,1092 @@
       "is_available": true,
       "created_at": "2026-04-09T13:48:49.728797",
       "updated_at": "2026-04-09T13:48:49.728799"
+    },
+    "snap-prov-314e724e": {
+      "provider_id": "snap-prov-314e724e",
+      "name": "snap-prov-314e724e Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {},
+      "is_available": true,
+      "created_at": "2026-04-09T13:55:09.489043",
+      "updated_at": "2026-04-09T13:55:09.489045"
+    },
+    "test-snap-prov-db55ad46": {
+      "provider_id": "test-snap-prov-db55ad46",
+      "name": "test-snap-prov-db55ad46 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "test-snap-model": {
+          "model_id": "test-snap-model",
+          "name": "test-snap-model Model",
+          "provider_id": "test-snap-prov-db55ad46",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-09T13:55:09.513116",
+          "updated_at": "2026-04-09T13:55:09.513118"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-09T13:55:09.507146",
+      "updated_at": "2026-04-09T13:55:09.507150"
+    },
+    "custom-2666b129": {
+      "provider_id": "custom-2666b129",
+      "name": "custom-2666b129 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "custom-model-020b2b49": {
+          "model_id": "custom-model-020b2b49",
+          "name": "custom-model-020b2b49 Model",
+          "provider_id": "custom-2666b129",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-09T13:55:09.530650",
+          "updated_at": "2026-04-09T13:55:09.530652"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-09T13:55:09.524651",
+      "updated_at": "2026-04-09T13:55:09.524653"
+    },
+    "snap-prov-4915ae81": {
+      "provider_id": "snap-prov-4915ae81",
+      "name": "snap-prov-4915ae81 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {},
+      "is_available": true,
+      "created_at": "2026-04-09T14:11:54.085029",
+      "updated_at": "2026-04-09T14:11:54.085031"
+    },
+    "test-snap-prov-4b3a3dea": {
+      "provider_id": "test-snap-prov-4b3a3dea",
+      "name": "test-snap-prov-4b3a3dea Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "test-snap-model": {
+          "model_id": "test-snap-model",
+          "name": "test-snap-model Model",
+          "provider_id": "test-snap-prov-4b3a3dea",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-09T14:11:54.114427",
+          "updated_at": "2026-04-09T14:11:54.114429"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-09T14:11:54.107724",
+      "updated_at": "2026-04-09T14:11:54.107726"
+    },
+    "custom-846bbf50": {
+      "provider_id": "custom-846bbf50",
+      "name": "custom-846bbf50 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "custom-model-5f57fcb1": {
+          "model_id": "custom-model-5f57fcb1",
+          "name": "custom-model-5f57fcb1 Model",
+          "provider_id": "custom-846bbf50",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-09T14:11:54.136481",
+          "updated_at": "2026-04-09T14:11:54.136483"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-09T14:11:54.128543",
+      "updated_at": "2026-04-09T14:11:54.128545"
+    },
+    "snap-prov-22be40ba": {
+      "provider_id": "snap-prov-22be40ba",
+      "name": "snap-prov-22be40ba Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {},
+      "is_available": true,
+      "created_at": "2026-04-09T14:12:33.703142",
+      "updated_at": "2026-04-09T14:12:33.703145"
+    },
+    "test-snap-prov-f08a5136": {
+      "provider_id": "test-snap-prov-f08a5136",
+      "name": "test-snap-prov-f08a5136 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "test-snap-model": {
+          "model_id": "test-snap-model",
+          "name": "test-snap-model Model",
+          "provider_id": "test-snap-prov-f08a5136",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-09T14:12:33.729812",
+          "updated_at": "2026-04-09T14:12:33.729815"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-09T14:12:33.723440",
+      "updated_at": "2026-04-09T14:12:33.723442"
+    },
+    "custom-2db1e2b9": {
+      "provider_id": "custom-2db1e2b9",
+      "name": "custom-2db1e2b9 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "custom-model-87446e5f": {
+          "model_id": "custom-model-87446e5f",
+          "name": "custom-model-87446e5f Model",
+          "provider_id": "custom-2db1e2b9",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-09T14:12:33.747934",
+          "updated_at": "2026-04-09T14:12:33.747936"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-09T14:12:33.741388",
+      "updated_at": "2026-04-09T14:12:33.741390"
+    },
+    "snap-prov-f96c58a4": {
+      "provider_id": "snap-prov-f96c58a4",
+      "name": "snap-prov-f96c58a4 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {},
+      "is_available": true,
+      "created_at": "2026-04-09T14:12:35.344655",
+      "updated_at": "2026-04-09T14:12:35.344657"
+    },
+    "test-snap-prov-6dd4fbf2": {
+      "provider_id": "test-snap-prov-6dd4fbf2",
+      "name": "test-snap-prov-6dd4fbf2 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "test-snap-model": {
+          "model_id": "test-snap-model",
+          "name": "test-snap-model Model",
+          "provider_id": "test-snap-prov-6dd4fbf2",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-09T14:12:35.371990",
+          "updated_at": "2026-04-09T14:12:35.371992"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-09T14:12:35.365108",
+      "updated_at": "2026-04-09T14:12:35.365110"
+    },
+    "custom-2aa081fa": {
+      "provider_id": "custom-2aa081fa",
+      "name": "custom-2aa081fa Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "custom-model-3182c7ce": {
+          "model_id": "custom-model-3182c7ce",
+          "name": "custom-model-3182c7ce Model",
+          "provider_id": "custom-2aa081fa",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-09T14:12:35.391941",
+          "updated_at": "2026-04-09T14:12:35.391944"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-09T14:12:35.384479",
+      "updated_at": "2026-04-09T14:12:35.384481"
+    },
+    "snap-prov-00e2c9d1": {
+      "provider_id": "snap-prov-00e2c9d1",
+      "name": "snap-prov-00e2c9d1 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {},
+      "is_available": true,
+      "created_at": "2026-04-09T14:12:37.040465",
+      "updated_at": "2026-04-09T14:12:37.040467"
+    },
+    "test-snap-prov-eee4ad79": {
+      "provider_id": "test-snap-prov-eee4ad79",
+      "name": "test-snap-prov-eee4ad79 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "test-snap-model": {
+          "model_id": "test-snap-model",
+          "name": "test-snap-model Model",
+          "provider_id": "test-snap-prov-eee4ad79",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-09T14:12:37.070066",
+          "updated_at": "2026-04-09T14:12:37.070068"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-09T14:12:37.062503",
+      "updated_at": "2026-04-09T14:12:37.062505"
+    },
+    "custom-92be7b26": {
+      "provider_id": "custom-92be7b26",
+      "name": "custom-92be7b26 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "custom-model-df80df56": {
+          "model_id": "custom-model-df80df56",
+          "name": "custom-model-df80df56 Model",
+          "provider_id": "custom-92be7b26",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-09T14:12:37.092080",
+          "updated_at": "2026-04-09T14:12:37.092082"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-09T14:12:37.084030",
+      "updated_at": "2026-04-09T14:12:37.084031"
+    },
+    "snap-prov-63f8f1fc": {
+      "provider_id": "snap-prov-63f8f1fc",
+      "name": "snap-prov-63f8f1fc Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {},
+      "is_available": true,
+      "created_at": "2026-04-09T14:22:05.950587",
+      "updated_at": "2026-04-09T14:22:05.950589"
+    },
+    "test-snap-prov-4847c295": {
+      "provider_id": "test-snap-prov-4847c295",
+      "name": "test-snap-prov-4847c295 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "test-snap-model": {
+          "model_id": "test-snap-model",
+          "name": "test-snap-model Model",
+          "provider_id": "test-snap-prov-4847c295",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-09T14:22:05.977650",
+          "updated_at": "2026-04-09T14:22:05.977653"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-09T14:22:05.970540",
+      "updated_at": "2026-04-09T14:22:05.970542"
+    },
+    "custom-a231b76a": {
+      "provider_id": "custom-a231b76a",
+      "name": "custom-a231b76a Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "custom-model-73e0825d": {
+          "model_id": "custom-model-73e0825d",
+          "name": "custom-model-73e0825d Model",
+          "provider_id": "custom-a231b76a",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-09T14:22:05.996725",
+          "updated_at": "2026-04-09T14:22:05.996727"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-09T14:22:05.989767",
+      "updated_at": "2026-04-09T14:22:05.989769"
+    },
+    "snap-prov-0a21f766": {
+      "provider_id": "snap-prov-0a21f766",
+      "name": "snap-prov-0a21f766 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {},
+      "is_available": true,
+      "created_at": "2026-04-12T14:11:43.242984",
+      "updated_at": "2026-04-12T14:11:43.242986"
+    },
+    "test-snap-prov-b6d4c3a5": {
+      "provider_id": "test-snap-prov-b6d4c3a5",
+      "name": "test-snap-prov-b6d4c3a5 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "test-snap-model": {
+          "model_id": "test-snap-model",
+          "name": "test-snap-model Model",
+          "provider_id": "test-snap-prov-b6d4c3a5",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-12T14:11:43.287117",
+          "updated_at": "2026-04-12T14:11:43.287119"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-12T14:11:43.279434",
+      "updated_at": "2026-04-12T14:11:43.279436"
+    },
+    "custom-942caec1": {
+      "provider_id": "custom-942caec1",
+      "name": "custom-942caec1 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "custom-model-1229529c": {
+          "model_id": "custom-model-1229529c",
+          "name": "custom-model-1229529c Model",
+          "provider_id": "custom-942caec1",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-12T14:11:43.308608",
+          "updated_at": "2026-04-12T14:11:43.308612"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-12T14:11:43.300661",
+      "updated_at": "2026-04-12T14:11:43.300663"
+    },
+    "snap-prov-ef59c857": {
+      "provider_id": "snap-prov-ef59c857",
+      "name": "snap-prov-ef59c857 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {},
+      "is_available": true,
+      "created_at": "2026-04-21T17:06:45.249152",
+      "updated_at": "2026-04-21T17:06:45.249154"
+    },
+    "test-snap-prov-606f4a99": {
+      "provider_id": "test-snap-prov-606f4a99",
+      "name": "test-snap-prov-606f4a99 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "test-snap-model": {
+          "model_id": "test-snap-model",
+          "name": "test-snap-model Model",
+          "provider_id": "test-snap-prov-606f4a99",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-21T17:06:45.284306",
+          "updated_at": "2026-04-21T17:06:45.284308"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-21T17:06:45.275666",
+      "updated_at": "2026-04-21T17:06:45.275668"
+    },
+    "custom-67090ba3": {
+      "provider_id": "custom-67090ba3",
+      "name": "custom-67090ba3 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "custom-model-5615350c": {
+          "model_id": "custom-model-5615350c",
+          "name": "custom-model-5615350c Model",
+          "provider_id": "custom-67090ba3",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-21T17:06:45.311954",
+          "updated_at": "2026-04-21T17:06:45.311956"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-21T17:06:45.301188",
+      "updated_at": "2026-04-21T17:06:45.301191"
+    },
+    "snap-prov-71e73d43": {
+      "provider_id": "snap-prov-71e73d43",
+      "name": "snap-prov-71e73d43 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {},
+      "is_available": true,
+      "created_at": "2026-04-21T17:10:49.764902",
+      "updated_at": "2026-04-21T17:10:49.764904"
+    },
+    "test-snap-prov-54e5f1d6": {
+      "provider_id": "test-snap-prov-54e5f1d6",
+      "name": "test-snap-prov-54e5f1d6 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "test-snap-model": {
+          "model_id": "test-snap-model",
+          "name": "test-snap-model Model",
+          "provider_id": "test-snap-prov-54e5f1d6",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-21T17:10:49.799311",
+          "updated_at": "2026-04-21T17:10:49.799313"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-21T17:10:49.790161",
+      "updated_at": "2026-04-21T17:10:49.790163"
+    },
+    "custom-4a52ad2a": {
+      "provider_id": "custom-4a52ad2a",
+      "name": "custom-4a52ad2a Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "custom-model-c94dc9e7": {
+          "model_id": "custom-model-c94dc9e7",
+          "name": "custom-model-c94dc9e7 Model",
+          "provider_id": "custom-4a52ad2a",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-21T17:10:49.823971",
+          "updated_at": "2026-04-21T17:10:49.823974"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-21T17:10:49.814515",
+      "updated_at": "2026-04-21T17:10:49.814517"
+    },
+    "snap-prov-961708f7": {
+      "provider_id": "snap-prov-961708f7",
+      "name": "snap-prov-961708f7 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {},
+      "is_available": true,
+      "created_at": "2026-04-21T17:14:29.599782",
+      "updated_at": "2026-04-21T17:14:29.599784"
+    },
+    "test-snap-prov-9906812b": {
+      "provider_id": "test-snap-prov-9906812b",
+      "name": "test-snap-prov-9906812b Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "test-snap-model": {
+          "model_id": "test-snap-model",
+          "name": "test-snap-model Model",
+          "provider_id": "test-snap-prov-9906812b",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-21T17:14:29.635362",
+          "updated_at": "2026-04-21T17:14:29.635364"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-21T17:14:29.626573",
+      "updated_at": "2026-04-21T17:14:29.626576"
+    },
+    "custom-4d898fc7": {
+      "provider_id": "custom-4d898fc7",
+      "name": "custom-4d898fc7 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "custom-model-b892b82b": {
+          "model_id": "custom-model-b892b82b",
+          "name": "custom-model-b892b82b Model",
+          "provider_id": "custom-4d898fc7",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-21T17:14:29.661620",
+          "updated_at": "2026-04-21T17:14:29.661622"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-21T17:14:29.650158",
+      "updated_at": "2026-04-21T17:14:29.650160"
+    },
+    "snap-prov-752547bd": {
+      "provider_id": "snap-prov-752547bd",
+      "name": "snap-prov-752547bd Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {},
+      "is_available": true,
+      "created_at": "2026-04-22T00:46:04.543806",
+      "updated_at": "2026-04-22T00:46:04.543807"
+    },
+    "test-snap-prov-98369fd0": {
+      "provider_id": "test-snap-prov-98369fd0",
+      "name": "test-snap-prov-98369fd0 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "test-snap-model": {
+          "model_id": "test-snap-model",
+          "name": "test-snap-model Model",
+          "provider_id": "test-snap-prov-98369fd0",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-22T00:46:04.574548",
+          "updated_at": "2026-04-22T00:46:04.574549"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-22T00:46:04.566185",
+      "updated_at": "2026-04-22T00:46:04.566186"
+    },
+    "custom-2bd57305": {
+      "provider_id": "custom-2bd57305",
+      "name": "custom-2bd57305 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "custom-model-40d5a3c9": {
+          "model_id": "custom-model-40d5a3c9",
+          "name": "custom-model-40d5a3c9 Model",
+          "provider_id": "custom-2bd57305",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-22T00:46:04.596230",
+          "updated_at": "2026-04-22T00:46:04.596232"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-22T00:46:04.588284",
+      "updated_at": "2026-04-22T00:46:04.588286"
+    },
+    "snap-provider": {
+      "provider_id": "snap-provider",
+      "name": "snap-provider Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {
+        "default": {
+          "tier_id": "default",
+          "name": "Default",
+          "description": "",
+          "is_available": true,
+          "created_at": "2026-04-23T15:56:08.920534",
+          "updated_at": "2026-04-23T15:56:08.920536"
+        },
+        "pro": {
+          "tier_id": "pro",
+          "name": "Pro",
+          "description": "",
+          "is_available": true,
+          "created_at": "2026-04-23T15:56:08.920541",
+          "updated_at": "2026-04-23T15:56:08.920541"
+        }
+      },
+      "models": {
+        "snap-model": {
+          "model_id": "snap-model",
+          "name": "snap-model Model",
+          "provider_id": "snap-provider",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "3.00",
+            "output_mtok": "15.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-23T15:56:08.929853",
+          "updated_at": "2026-04-23T15:56:08.929855"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-23T15:56:08.920548",
+      "updated_at": "2026-04-23T15:56:08.920549"
+    },
+    "snap-only-provider": {
+      "provider_id": "snap-only-provider",
+      "name": "snap-only-provider Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {
+        "default": {
+          "tier_id": "default",
+          "name": "Default",
+          "description": "",
+          "is_available": true,
+          "created_at": "2026-04-23T15:57:29.198184",
+          "updated_at": "2026-04-23T15:57:29.198186"
+        },
+        "pro": {
+          "tier_id": "pro",
+          "name": "Pro",
+          "description": "",
+          "is_available": true,
+          "created_at": "2026-04-23T15:57:29.198190",
+          "updated_at": "2026-04-23T15:57:29.198191"
+        }
+      },
+      "models": {
+        "snap-model": {
+          "model_id": "snap-model",
+          "name": "snap-model Model",
+          "provider_id": "snap-only-provider",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "3.00",
+            "output_mtok": "15.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-23T15:57:29.207494",
+          "updated_at": "2026-04-23T15:57:29.207497"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-23T15:57:29.198198",
+      "updated_at": "2026-04-23T15:57:29.198198"
+    },
+    "snap-prov-63a6078e": {
+      "provider_id": "snap-prov-63a6078e",
+      "name": "snap-prov-63a6078e Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {},
+      "is_available": true,
+      "created_at": "2026-04-23T17:14:08.140982",
+      "updated_at": "2026-04-23T17:14:08.140984"
+    },
+    "test-snap-prov-4b85e477": {
+      "provider_id": "test-snap-prov-4b85e477",
+      "name": "test-snap-prov-4b85e477 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "test-snap-model": {
+          "model_id": "test-snap-model",
+          "name": "test-snap-model Model",
+          "provider_id": "test-snap-prov-4b85e477",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-23T17:14:08.180525",
+          "updated_at": "2026-04-23T17:14:08.180527"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-23T17:14:08.169054",
+      "updated_at": "2026-04-23T17:14:08.169056"
+    },
+    "custom-725267d1": {
+      "provider_id": "custom-725267d1",
+      "name": "custom-725267d1 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "custom-model-e8c3fa8c": {
+          "model_id": "custom-model-e8c3fa8c",
+          "name": "custom-model-e8c3fa8c Model",
+          "provider_id": "custom-725267d1",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-23T17:14:08.206438",
+          "updated_at": "2026-04-23T17:14:08.206441"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-23T17:14:08.196196",
+      "updated_at": "2026-04-23T17:14:08.196198"
+    },
+    "snap-prov-4cf26573": {
+      "provider_id": "snap-prov-4cf26573",
+      "name": "snap-prov-4cf26573 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {},
+      "is_available": true,
+      "created_at": "2026-04-23T17:25:46.374390",
+      "updated_at": "2026-04-23T17:25:46.374391"
+    },
+    "test-snap-prov-b5345015": {
+      "provider_id": "test-snap-prov-b5345015",
+      "name": "test-snap-prov-b5345015 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "test-snap-model": {
+          "model_id": "test-snap-model",
+          "name": "test-snap-model Model",
+          "provider_id": "test-snap-prov-b5345015",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-23T17:25:46.410718",
+          "updated_at": "2026-04-23T17:25:46.410721"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-23T17:25:46.400775",
+      "updated_at": "2026-04-23T17:25:46.400777"
+    },
+    "custom-025f3860": {
+      "provider_id": "custom-025f3860",
+      "name": "custom-025f3860 Provider",
+      "api_endpoint_pattern": "",
+      "documentation_url": "",
+      "description": "",
+      "tiers": {},
+      "models": {
+        "custom-model-d4546486": {
+          "model_id": "custom-model-d4546486",
+          "name": "custom-model-d4546486 Model",
+          "provider_id": "custom-025f3860",
+          "description": "",
+          "context_window": 0,
+          "match_patterns": [],
+          "pricing": {
+            "input_mtok": "1.00",
+            "output_mtok": "2.00",
+            "cache_write_mtok": null,
+            "cache_read_mtok": null
+          },
+          "rate_limiters": {},
+          "is_available": true,
+          "prices_checked": null,
+          "created_at": "2026-04-23T17:25:46.436955",
+          "updated_at": "2026-04-23T17:25:46.436957"
+        }
+      },
+      "is_available": true,
+      "created_at": "2026-04-23T17:25:46.426554",
+      "updated_at": "2026-04-23T17:25:46.426556"
     }
   }
 }
