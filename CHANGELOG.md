@@ -16,6 +16,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enhanced README with GitHub project structure
 - Updated .gitignore for better IDE and development tool support
 
+## [0.1.1] - 2026-10-06
+
+### Added
+
+#### Model Pricing
+- `ModelPrice.credit_rate_per_mtok` - Optional admin-configured platform credit rate per 1M total tokens (blended); rejects negative values; defaults to `None` for full backwards compatibility with existing serialized data
+
+#### Development
+- `pytest-timeout` dev dependency to support timeout-enforced test runs
+
 ## [0.1.0] - 2025-12-02
 
 ### Added
