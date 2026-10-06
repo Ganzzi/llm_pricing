@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "llm-pricing"
-version = "0.1.0"
+version = "0.1.1"
 description = "Standalone Python package for LLM pricing with provider tiers, model-based rate limiters, and tiered pricing support"
 readme = "README.md"
 license = { text = "MIT" }
@@ -29,6 +29,7 @@ dev = [
     "pytest-asyncio>=0.21",
     "pytest-cov>=4.0",
     "pytest-json-report>=1.5.0",
+    "pytest-timeout>=2.3",
     "black>=23.0",
     "ruff>=0.1",
     "mypy>=1.0",

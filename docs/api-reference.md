@@ -416,6 +416,7 @@ tiered = ModelPrice(
 - `output_mtok` (Union[Decimal, TieredPrice]): Output token price
 - `cache_read_mtok` (Optional[Union[Decimal, TieredPrice]]): Cache read price
 - `cache_write_mtok` (Optional[Union[Decimal, TieredPrice]]): Cache write price
+- `credit_rate_per_mtok` (Optional[Decimal]): Platform credit rate per 1M total tokens (blended); admin-configured, not API-sourced. Must be non-negative; `None` means unconfigured
 
 **Methods:**
 - `calculate_input_cost(tokens: int) -> Decimal`: Calculate input cost

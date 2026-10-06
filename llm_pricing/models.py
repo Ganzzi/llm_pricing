@@ -191,6 +191,8 @@ class ModelPrice(BaseModel):
         output_mtok: Price per 1M output tokens (simple or tiered)
         cache_write_mtok: Price per 1M cache write tokens (optional)
         cache_read_mtok: Price per 1M cache read tokens (optional)
+        credit_rate_per_mtok: Platform credit rate per 1M total tokens,
+            blended (optional, admin-configured)
     """
 
     input_mtok: PriceValue = Field(..., description="Price per 1M input tokens")
@@ -201,6 +203,17 @@ class ModelPrice(BaseModel):
     cache_read_mtok: Optional[PriceValue] = Field(
         None, description="Price per 1M cache read tokens"
     )
+    credit_rate_per_mtok: Optional[Decimal] = Field(
+        None,
+        description="Platform credit rate per 1M total tokens (blended); admin-configured, not API-sourced",
+    )
+
+    @field_validator("credit_rate_per_mtok")
+    @classmethod
+    def validate_credit_rate(cls, v: Optional[Decimal]) -> Optional[Decimal]:
+        if v is not None and v < 0:
+            raise ValueError("credit_rate_per_mtok must be non-negative")
+        return v
 
     def calculate_input_cost(self, tokens: int) -> Decimal:
         """Calculate cost for input tokens."""
